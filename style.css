@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 0px;
+    color: white;
+}
+header h1 {
+    background: rgb(94, 179, 153);
+    padding: 35px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+header nav {
+    background: rgb(94, 179, 153);
+    padding: 15px;
+    border-radius: 20px;
+}
+header nav a {
+    color: white;
+    text-decoration: none;
+    align-self: center;
+    margin: 0px 30px;
+    transition: border 0.2s;
+}
+header nav a:hover {
+    border-bottom: 5px solid white;
+    padding-bottom: 10px;
+}
+
+main {
+    background: white;
+    margin: 0px 10px;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.texto {
+    margin: 0px 30px;
+}
+.texto h2 {
+    margin-bottom: 10px;
+}
+.texto p {
+    margin-bottom: 10px;
+}
+
+footer {
+    background: rgb(94, 179, 153);
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    border-radius: 20px;
+}
+
+body {
+    background: gainsboro;
+}
+
+#galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 10px;
+    justify-content: space-evenly;
+}
+
+#galeria img {
+    max-width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all 0.2s;
+}
+#galeria img:hover {
+    scale: 12;
+}
+
+#formulario {
+    
+}
