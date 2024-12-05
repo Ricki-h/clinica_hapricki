@@ -72,12 +72,14 @@ body {
 }
 
 #galeria img {
-    max-width: 300px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    transition: all 0.2s;
+    width: 300px;
+    height: 220px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+    transition: all 0.5s;
+    flex-grow: 1;
 }
 #galeria img:hover {
-    scale: 12;
+    scale: 1.05;
 }
 
 #formulario {
