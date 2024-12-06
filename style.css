@@ -82,6 +82,13 @@ body {
     scale: 1.05;
 }
 
-#formulario {
-    
+#login {
+    display: flex;
 }
+
+#formulario {
+    margin: 50px;
+    text-align: center;
+}
+
+#
