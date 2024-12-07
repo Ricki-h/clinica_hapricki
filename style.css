@@ -132,6 +132,12 @@ body {
     border: none;
     font-weight: bold;
     font-size: 16px;
+    transition: all 0.2s;
+}
+#formulario #enviar:hover {
+    cursor: pointer;
+    scale: 1.02;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 5px;
 }
 
 #img_login {
